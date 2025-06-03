@@ -1,0 +1,176 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .homepage {
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0d1a2d;
+    color: white;
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .contact-info span {
+    margin-left: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #ef4b28;
+    padding: 12px 0;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+  }
+  
+  .hero {
+    background: url('../assets/background.jpeg') center/cover no-repeat;
+    color: white;
+    padding: 100px 30px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+  
+  .hero button {
+    background-color: #ef4b28;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .why-choose-us {
+    background-color: #f55f38;
+    color: white;
+    padding: 60px 30px;
+    text-align: center;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 30px;
+  }
+  
+  .why-choose-us p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .feature-box {
+    background-color: #0d1a2d;
+    color: white;
+    padding: 25px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .feature-box .icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f55f38;
+  }
+  
+  .view-services {
+    margin-top: 30px;
+    background: white;
+    color: #f55f38;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .ceo-quote {
+    padding: 60px 30px;
+    text-align: center;
+    background-color: #fff7f4;
+  }
+  
+  .worker-img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .ceo-quote blockquote {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .ceo-name {
+    font-weight: bold;
+    color: #ef4b28;
+  }
+  
+  .logo-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    background-color: white;
+  }
+  
+  .logo-section img {
+    max-height: 40px;
+  }
+  
+  .intro-section {
+    padding: 60px 30px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .intro-header h3 {
+    color: #ef4b28;
+    margin-bottom: 10px;
+  }
+  
+  .intro-header h2 {
+    margin-bottom: 30px;
+  }
+  
+  .intro-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .intro-images img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
